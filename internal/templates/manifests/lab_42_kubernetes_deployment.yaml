@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: k8s-deployment-lab
+  name: kubernetes-deployment-lab
   namespace: girus
   labels:
     app: girus-lab-template
 data:
   lab.yaml: |
-    name: k8s-nginx-deployment
-    title: "Deployment Nginx no Kubernetes"
+    name: kubernetes-deployment
+    title: "Criando um Deployment no Kubernetes"
     description: "Aprenda a criar um deployment do Nginx e verificar os detalhes dos pods no Kubernetes"
     duration: 15m
     timerEnabled: true
@@ -32,7 +32,7 @@ data:
           - "Agora, vamos criar outro deployment usando um arquivo YAML:"
           - "Crie um arquivo deployment.yaml:"
           - |
-            ```yaml
+            ```
             apiVersion: apps/v1
             kind: Deployment
             metadata:

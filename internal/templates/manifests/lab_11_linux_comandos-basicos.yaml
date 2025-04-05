@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: basic-linux-lab
+  name: linux-comandos-basicos-lab
   namespace: girus
   labels:
     app: girus-lab-template
 data:
   lab.yaml: |
-    name: linux-basics
-    title: "Introdução ao Linux"
+    name: linux-comandos-basicos
+    title: "Linux Básico"
     description: "Laboratório básico para praticar comandos Linux essenciais e conceitos fundamentais"
     duration: 10m
     image: "linuxtips/girus-devops:0.1"

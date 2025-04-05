@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: kubernetes-basics-lab
+  name: kubernetes-fundamentos-lab
   namespace: girus
   labels:
     app: girus-lab-template
 data:
   lab.yaml: |
-    name: kubernetes-basics
-    title: "Fundamentos de Kubernetes"
+    name: kubernetes-fundamentos
+    title: "Introdução ao Kubernetes"
     description: "Aprenda comandos básicos do Kubernetes para gerenciar recursos em um cluster"
     duration: 15m
     image: "linuxtips/girus-kind-single-node:0.1"
@@ -47,7 +47,7 @@ data:
           - "`kubectl create namespace k8s-demo`"
           - "Crie um arquivo pod.yaml com o seguinte conteúdo:"
           - |
-            ```yaml
+            ```
             apiVersion: v1
             kind: Pod
             metadata:

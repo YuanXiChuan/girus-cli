@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: docker-containers-lab
+  name: docker-gerenciamento-containers-lab
   namespace: girus
   labels:
     app: girus-lab-template
 data:
   lab.yaml: |
-    name: docker-containers-management
-    title: "Criando, Listando e Removendo Containers"
+    name: docker-gerenciamento-containers
+    title: "Gerenciamento de Containers Docker"
     description: "Aprenda a gerenciar o ciclo de vida de containers Docker: criação, listagem e remoção"
     duration: 20m
     image: "linuxtips/girus-devops:0.1"

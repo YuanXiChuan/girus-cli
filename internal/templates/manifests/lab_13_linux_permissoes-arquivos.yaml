@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: linux-permissions-lab
+  name: linux-permissoes-arquivos-lab
   namespace: girus
   labels:
     app: girus-lab-template
 data:
   lab.yaml: |
-    name: linux-file-permissions
+    name: linux-permissoes-arquivos
     title: "Permissões de Arquivos no Linux"
     description: "Aprenda a visualizar e modificar permissões de arquivos e diretórios no Linux"
     duration: 15m

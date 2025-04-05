@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: linux-users-lab
+  name: linux-gerenciamento-usuarios-lab
   namespace: girus
   labels:
     app: girus-lab-template
 data:
   lab.yaml: |
-    name: linux-users-admin
-    title: "Administrando Usuários no Linux"
+    name: linux-gerenciamento-usuarios
+    title: "Administração de Usuários no Linux"
     description: "Aprenda a criar, modificar e gerenciar contas de usuários e grupos no Linux"
     duration: 10m
     timerEnabled: true
